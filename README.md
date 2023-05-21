@@ -8,7 +8,7 @@ This is where the profiled user will include his details.
 It is also where recommendations will appear for him to view.
 
 ## The recommender model
-The model is a statistical or ML model that is trained to collect data from the location, and filter out what information is relevant to the user.
+The model is a statistical or ML model that is trained to collect data from the location, and filter out what information is relevant to the user. The model of choice will be determined by optimization mechanism.
 
 ## The API
 I will use FastAPI to connect both ends. The fitted model will instruct the API on what information from the backend to feed onto the frontend.
