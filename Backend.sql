@@ -15,8 +15,8 @@ CREATE TABLE location (
   longitude REAL
 );
 
--- Create the 'store' table
-CREATE TABLE store (
+-- Create the 'outlet' table
+CREATE TABLE outlet (
   id INTEGER PRIMARY KEY,
   name TEXT,
   location_id INTEGER,
